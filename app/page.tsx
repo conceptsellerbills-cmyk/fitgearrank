@@ -5,6 +5,7 @@ import NewsletterForm from '../components/NewsletterForm'
 export const metadata: Metadata = {
   title: "Best Fitness Gear Ranked by Experts 2025 — FitGear Rank",
   description: "Expert-tested rankings of home gym equipment, fitness wearables, running gear and supplements.",
+  alternates: { canonical: "https://www.fitgearrank.com" },
 };
 
 const STARS = (n: number) => "★".repeat(n) + "☆".repeat(5 - n);
